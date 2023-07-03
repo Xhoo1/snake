@@ -89,7 +89,7 @@ function update() {
     snakeY > rows * blockSize
   ) {
     gameOver = true;
-    document.querySelector("h1").innerHTML = "Emo ti Karo!";
+    document.querySelector("h1").innerHTML = "Xhero Budallai!";
     document.querySelector("h1").style.color = "red";
   }
 
