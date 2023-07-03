@@ -43,7 +43,7 @@ window.onload = function() {
     changeDirection("ArrowRight");
   });
 
-  setInterval(update, 1000 / 10);
+  setInterval(update, 1000 / 7);
 };
 
 function update() {
