@@ -1,0 +1,40 @@
+ body {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+ }
+
+.button {
+
+   margin-top: 70px;
+}
+
+ .button div input {
+
+width: 70px;
+height: 60px;
+margin: 3px;
+
+
+ }
+
+#left, #right, #up, #down {
+
+   background-color: antiquewhite;
+}
+
+ @media only screen and (max-width: 600px) {
+   /* Adjust container styles for smaller screens */
+   .container {
+     text-align: center;
+   }
+   
+   /* Adjust canvas size for smaller screens */
+   #board {
+     width: 100%;
+     height: auto;
+   }
+   
+   /* Adjust controls styles for smaller screens */
+
+ }
